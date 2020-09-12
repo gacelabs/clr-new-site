@@ -1,0 +1,92 @@
+#sticky-wrapper {
+	margin: 12px 0 20px;
+}
+#sticky-wrapper .foode-main-menu .classy-nav-container {
+	background: #deb200;
+}
+.header-area .foode-main-menu .classynav ul li a:hover, 
+.header-area .foode-main-menu .classynav ul li a:focus,
+.header-area .foode-main-menu .classynav ul li.current a {
+	color: #f7f3f1;
+}
+
+ul.dropdown, .classy-menu.menu-on, .classynav ul li a {
+	background: #deb200 !important;
+}
+
+body {
+	background: #ffffff;
+}
+
+.clrinc-logo-main {
+	width: 255px;
+}
+
+.clrinc-logo-small {
+	width: 150px;
+}
+
+.contact-content .contact-social-info a:hover, 
+.contact-content .contact-social-info a:focus, 
+.header-area .top-header .top-header-content .top-social-info a:hover,
+.breadcrumb-area .breadcrumb .breadcrumb-item a:hover, 
+.breadcrumb-area .breadcrumb .breadcrumb-item a:focus,
+.footer-area .footer-social-info a:hover,
+.footer-area .footer-social-info a:focus,
+.single-widget-area .widget-social-info a:hover,
+.single-widget-area .widget-social-info a:focus,
+.single-blog-post .post-content .post-date,
+.single-blog-post .post-content .post-title h4:hover,
+.single-widget-area .single-latest-post .post-content .post-title h6:hover, 
+.single-widget-area .single-latest-post .post-content .post-title h6:focus,
+.single-blog-post .post-content .read-more-btn:hover, 
+.single-blog-post .post-content .read-more-btn:focus,
+.single-widget-area .popular-tags li a:hover,
+.single-widget-area .popular-tags li a:focus {
+	color: #deb200;
+}
+
+.single-hero-post .hero-slides-content .post-title h4:hover {
+    color: #000;
+    font-weight: bold;
+}
+
+.contact-content .contact-form-area .form-control:focus, .contact-form-area .form-control:focus {
+	border-color: #deb200;
+}
+
+.section-padding-50 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.section-padding-0-50 {
+    padding-top: 0px;
+    padding-bottom: 50px;
+}
+
+.section-heading {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 0px !important;
+    text-align: center;
+}
+
+.foode-image, .foode-blockquote {
+    position: relative;
+    z-index: 1;
+    padding: 20px 0 !important;
+}
+
+.single-hero-post {
+    height: 390px;
+}
+
+.slide-img.bg-img {
+    background-position: unset;
+    background-size: contain;
+}
+
+.carousel-item.bg-img {
+    background-size: auto;
+}

@@ -1,0 +1,5 @@
+#Form_ItemEditForm_Summary_Holder div.form__field-holder.form__field-holder--no-label,
+#Form_EditForm_Summary_Holder div.form__field-holder.form__field-holder--no-label {
+	margin: 10px !important;
+	max-width: 95% !important;
+}
