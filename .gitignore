@@ -4,3 +4,9 @@
 /themes/simple/
 /_resources/
 /public/_resources/
+public/robots.txt
+app/_config.php
+public/.htaccess
+public/assets/.gitignore
+public/assets/web.config
+ss_error.log
