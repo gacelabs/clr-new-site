@@ -22,7 +22,7 @@
 						</div>
 						<div class="widget-social-info text-center">
 							<% loop $SiteConfig.SocialMediaSites %>
-								<a href="$SocialMediaURL"><i class="fa fa-{$FaIconClass}"></i></a>
+								<a href="$SocialMediaURL" style="font-size: 40px;"><i class="fa fa-{$FaIconClass}"></i></a>
 							<% end_loop %>
 						</div>
 						<br>
@@ -34,7 +34,7 @@
 				</div>
 			</div>
 			<% end_if %>
-			<div class="col-lg-4">
+			<%-- <div class="col-lg-4">
 				<div class="post-sidebar-area">
 					<div class="single-widget-area">
 						<div class="widget-title">
@@ -49,7 +49,7 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</div> --%>
 		</div>
 	</div>
 

@@ -4,7 +4,9 @@
 		<div class="hero-post-slides owl-carousel owl-loaded owl-drag">
 			<% loop $BlogPosts.Sort(PublishDate, DESC) %>
 				<div class="single-hero-post">
-					<div class="slide-img bg-img" style="background-image: url($FeaturedImage.Link);"></div>
+					<a href="$Link">
+						<div class="slide-img bg-img" style="background-image: url($FeaturedImage.Link);"></div>
+					</a>
 					<div class="hero-slides-content">
 						<%-- <p>$PublishDate.Format('MMMM d, YYYY')</p> --%>
 						<a href="$Link" class="post-title">
@@ -17,7 +19,7 @@
 	</section>
 <% end_if %>
 
-<section class="blog-content-area section-padding-100-0">
+<%-- <section class="blog-content-area section-padding-100-0">
 	<div class="container">
 		<% if $FivePosts.Count %>
 			<div class="row">
@@ -28,7 +30,6 @@
 								<% loop $FivePosts.Sort(PublishDate, DESC).Limit(5) %>
 									<div class="carousel-item bg-img<% if $First %> active<% end_if %>" style="background-image: url('$FeaturedImage.URL');">
 										<div class="featured-post-content">
-											<%-- <p>$PublishDate.Format('MMMM d, YYYY')</p> --%>
 											<a href="$Link" class="post-title">
 												<h2><% if $MenuTitle %>$MenuTitle<% else %>$Title<% end_if %></h2>
 											</a>
@@ -64,7 +65,6 @@
 									<a href="$link">$FeaturedImage.FillMax(365, 365)</a>
 								</div>
 								<div class="post-content mb-50">
-									<%-- <p class="post-date">$PublishDate.Format('MMMM d, YYYY')</p> --%>
 									<a href="$link" class="post-title">
 										<h4><% if $MenuTitle %>$MenuTitle<% else %>$Title<% end_if %></h4>
 									</a>
@@ -126,4 +126,4 @@
 			</div>
 		<% end_if %>
 	</div>
-</section>
+</section> --%>

@@ -4,19 +4,18 @@ $Breadcrumbs
 <section class="blog-content-area section-padding-0-100">
 	<div class="container">
 		<div class="row justify-content-center">
-			<div class="col-12 col-lg-8">
+			<div class="col-12 col-lg-12">
 				<div class="blog-posts-area">
-					<% if $TopProduct.Exists %>
+					<%-- <% if $TopProduct.Exists %>
 						<div class="featured-posts">
 							<a href="$TopProduct.Link">$TopProduct.FeaturedImage
 							<div class="featured-post-content">
-								<%-- <p>$TopProduct.PublishDate.Format('MMMM d, YYYY')</p> --%>
 								<a href="$TopProduct.Link" class="post-title">
 									<h2><% if $TopProduct.MenuTitle %>$TopProduct.MenuTitle<% else %>$TopProduct.Title<% end_if %></h2>
 								</a>
 							</div>
 						</div>
-					<% end_if %>
+					<% end_if %> --%>
 
 					<% if $getBlogPosts.Count %>
 						<% loop $getBlogPosts.Filter(ID:Not, $TopProduct.ID).Sort(PublishDate, DESC) %>

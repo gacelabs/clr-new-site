@@ -4,7 +4,7 @@ $Breadcrumbs
 <section class="blog-content-area">
 	<div class="container">
 		<div class="row justify-content-center">
-			<div class="col-12 col-lg-8">
+			<div class="col-12 col-lg-12">
 				<div class="blog-posts-area">
 					<div class="single-post-details-area">
 						<%-- <div class="post-thumbnail mb-30">

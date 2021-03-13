@@ -53,17 +53,17 @@ namespace {
 
 
 			$general_css = [
-				'/static/assets/css/style.css',
-				'/requirements/css/custom.css',
+				'static/assets/css/style.css',
+				'requirements/css/custom.css',
 			];
 			Requirements::combine_files('general-page.css', $general_css);
 
 			$general_js = [
-				'/static/assets/js/jquery-2.2.4.min.js',
-				'/static/assets/js/popper.min.js',
-				'/static/assets/js/bootstrap.min.js',
-				'/static/assets/js/plugins.js',
-				'/static/assets/js/active.js',
+				'static/assets/js/jquery-2.2.4.min.js',
+				'static/assets/js/popper.min.js',
+				'static/assets/js/bootstrap.min.js',
+				'static/assets/js/plugins.js',
+				'static/assets/js/active.js',
 			];
 			Requirements::combine_files('general-page.js', $general_js);
 
