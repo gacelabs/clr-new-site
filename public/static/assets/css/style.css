@@ -2054,3 +2054,7 @@ blockquote .blockquote-text h6:last-child {
 }
 
 /* ======= The End ======= */
+
+#scrollUp {
+    margin-right: 70px !important;
+}
