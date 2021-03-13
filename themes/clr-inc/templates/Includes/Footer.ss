@@ -22,7 +22,7 @@
 						</div>
 						<div class="widget-social-info text-center">
 							<% loop $SiteConfig.SocialMediaSites %>
-								<a href="$SocialMediaURL" style="font-size: 40px;"><i class="fa fa-{$FaIconClass}"></i></a>
+								<a href="$Link" style="font-size: 40px;"><i class="fa fa-{$FaIconClass}"></i></a>
 							<% end_loop %>
 						</div>
 						<br>
