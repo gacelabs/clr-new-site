@@ -53,9 +53,15 @@ namespace {
 
 
 			$general_css = [
+				'requirements/css/bootstrap.min.css',
+				'requirements/css/magnific-popup.css',
+				'requirements/css/classy-nav.css',
+				'requirements/css/owl.carousel.min.css',
+				'requirements/css/animate.css',
 				'static/assets/css/style.css',
 				'requirements/css/custom.css',
 			];
+			// Requirements::css('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 			Requirements::combine_files('general-page.css', $general_css);
 
 			$general_js = [

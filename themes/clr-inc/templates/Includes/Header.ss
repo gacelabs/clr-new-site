@@ -35,6 +35,7 @@
 		<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=718635915214505&ev=PageView&noscript=1"/></noscript>
 		<!-- End Facebook Pixel Code -->
 	<% end_if %>
+	<script src="https://kit.fontawesome.com/c28275fb10.js" crossorigin="anonymous"></script>
 </head>
 <body>
 	<%-- <% if $isLive %> --%>
