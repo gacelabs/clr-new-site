@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<% if $isLive %>
+	<%-- <% if $isLive %> --%>
 		<script data-ad-client="ca-pub-6230385111769760" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-154196717-1"></script>
@@ -18,7 +18,7 @@
 		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 		})(window,document,'script','dataLayer','GTM-MXS8SLV');</script>
 		<!-- End Google Tag Manager -->
-	<% end_if %>
+	<%-- <% end_if %> --%>
 	<% base_tag %>
 	<title><% if $MetaTitle %>$MetaTitle<% else %>$Title<% end_if %> &raquo; $SiteConfig.Title</title>
 	<meta charset="utf-8">
@@ -29,15 +29,15 @@
 	<![endif] -->
 	<link rel="icon" type="image/png" href="{$SiteConfig.SiteFavIcon.Link}" />
     <link rel="canonical" href="{$AbsoluteLink}" />
-	<%-- <% if $isLive %> --%>
+	<% if $isLive %>
 		<!-- Facebook Pixel Code -->
 		<script>!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window, document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init','718635915214505');fbq('track','PageView');</script>
 		<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=718635915214505&ev=PageView&noscript=1"/></noscript>
 		<!-- End Facebook Pixel Code -->
-	<%-- <% end_if %> --%>
+	<% end_if %>
 </head>
 <body>
-	<% if $isLive %>
+	<%-- <% if $isLive %> --%>
 		<!-- Google Tag Manager (noscript) -->
 		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MXS8SLV"
 		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -51,7 +51,7 @@
 		<script>window.fbAsyncInit = function() { FB.init({ xfbml: true, version: 'v4.0' }); }; (function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js'; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));</script>
 		<!-- Your customer chat code -->
 		<div class="fb-customerchat" attribution="setup_tool" page_id="120439316017067"></div>
-	<% end_if %>
+	<%-- <% end_if %> --%>
 	<header class="header-area">
 		<div class="top-header">
 			<div class="container">
